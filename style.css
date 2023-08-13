@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 1457px;
+    width: 1457px;
+    flex-shrink: 0;
+
+}
+#nyaman {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #482E1D ;
+  }
+  
+ #nyaman li {
+    float: left;
+  }
+  
+ #nyaman .gambar1 #utter{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    width: 150px;
+  }
+  
+ /*#nyaman .gambar2 #profil{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 50px;
+  }
+#Tajuk{
+    display: block;
+    color: white;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 27px;
+    width: 200px;
+    height: 20px;
+  }*/
+  #side{
+    display: block;
+    background-color: bisque;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+#side li {
+    display: block;
+    background-color: #482E1D;
+    align-content: center;
+    width: 75%;
+    height: 4%;
+    margin-top: 20px;
+    /*border: 3px solid black;*/
+    border-radius: 20px;
+    padding: 5% 3%;
+  text-decoration: none;
+  color: white;
+}
+#side li a {
+    display: block;
+    color: #000;
+    padding: 5% 3%;
+    text-decoration: none;
+    color: white;
+  }
+  #box {
+    width: 900px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 3px solid #000;
+    background: #FFF;
+    position: absolute;
+    left: 370px;
+    top: 190px;
+    font-size: 20px;
+  }

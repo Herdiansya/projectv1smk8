@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(2740431.png) ;
+    background-repeat: no-repeat;
+    background-size: 1457px;
+    width: 1457px;
+    flex-shrink: 0;
+    /*background-size: 500px;*/
+}
+#nyaman {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #482E1D ;
+  }
+  
+ #nyaman li {
+    float: left;
+  }
+  
+ #nyaman .gambar1 #utter{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    width: 150px;
+  }
+  
+ #nyaman .gambar2 #profil{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 50px;
+  }
+#Tajuk{
+    display: block;
+    color: white;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 27px;
+    width: 200px;
+    height: 20px;
+  }
+  #side{
+    display: block;
+    background-color: bisque;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+#side li {
+    display: block;
+    background-color: #482E1D;
+    align-content: center;
+    width: 75%;
+    height: 4%;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5% 3%;
+  text-decoration: none;
+  color: white;
+}
+#side li a {
+    display: block;
+    color: #000;
+    padding: 5% 3%;
+    text-decoration: none;
+    color: white;
+  }
+  #bg {
+    width: 1117px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    margin-left: 260px;
+    margin-top: 120px;
+  }
+#bg .np {
+  position: absolute;
+  top: 270px;
+  left: 290px;
+  font-size: 20px;
+  color: #482E1D;
+}
+#bg .hp {
+  position: absolute;
+  bottom: 214px;
+  left: 290px;
+  font-size: 20px;
+  color: #482E1D;
+}
+#bg .ug {
+  position: absolute;
+  bottom: 90px;
+  left: 292px;
+  font-size: 20px;
+  color: #482E1D;
+}
+#jdl {
+  color: #000;;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 130px;
+  left: 620px;
+}
